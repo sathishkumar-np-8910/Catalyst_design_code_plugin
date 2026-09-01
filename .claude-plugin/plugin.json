@@ -1,0 +1,17 @@
+{
+  "name": "Catalyst_design_code_plugin",
+  "description": "Build HTML/CSS/JS product screens from the zcat UI component library (Zoho Catalyst design system) with live design-rule enforcement: static validation with auto-fix, rendered Chromium audit, feature-coverage receipts, design scoring, and a stop gate.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Srinath P",
+    "email": "srinath.p@zohocorp.com"
+  },
+  "keywords": [
+    "catalyst",
+    "zcat",
+    "design-system",
+    "ui",
+    "html",
+    "code-generation"
+  ]
+}

@@ -1,0 +1,48 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="/zcat-ui/zcat.css">
+<style>
+  .t-wrap{display:flex;flex-direction:column;gap:12px;padding:16px}
+  .t-row{display:flex;flex-direction:row;align-items:center;gap:16px}
+  .t-col{display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+  .t-off{margin-left:6px}
+  .t-cards{display:flex;flex-direction:row;align-items:stretch;gap:16px}
+  .t-card-a{padding:16px;width:300px}
+  .t-card-b{padding:24px;width:300px}
+  .t-tall{height:120px}
+  .t-icon{width:40px}
+  .t-overlap{position:relative}
+  .t-overlap span{position:relative;margin-top:-20px;display:block;height:40px;background:var(--zc-body-bg-hover)}
+</style></head>
+<body><div class="zc-layout"><div class="zc-layout__shell"><div class="zc-layout__main">
+<div class="zc-layout__page"><div class="zc-layout__body"><div class="zc-layout__container">
+  <div class="t-wrap">
+
+    <div class="zc-tabs" data-type="primary">
+      <button class="zc-tab" data-state="active">Overview</button>
+      <button class="zc-tab" data-state="active">Settings</button>
+    </div>
+
+    <div class="t-row">
+      <button class="zc-btn" data-variant="fill">Create Database</button>
+      <button class="zc-btn" data-variant="fill">Import Data</button>
+    </div>
+
+    <div class="t-col">
+      <div style="width:400px">Aligned section</div>
+      <div class="t-off" style="width:400px">Misaligned section</div>
+    </div>
+
+    <div class="t-cards">
+      <div class="zc-card t-card-a"><span class="zc-subtitle-2">Storage</span></div>
+      <div class="zc-card t-card-b t-tall"><span class="zc-subtitle-2">Compute</span></div>
+    </div>
+
+    <div class="t-row"><div class="t-icon"><span class="zc-body-3">boxed</span></div></div>
+
+    <div class="t-overlap"><span class="zc-body-3">Row one</span><span class="zc-body-3">Row two</span></div>
+
+    <div><span class="zc-body-3">Select List</span></div>
+
+  </div>
+</div></div></div></div></div></div>
+<script src="/zcat-ui/zcat.js" defer></script></body></html>

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zcat": {
+      "type": "http",
+      "url": "https://zcat.catalystappsail.in/mcp"
+    }
+  }
+}

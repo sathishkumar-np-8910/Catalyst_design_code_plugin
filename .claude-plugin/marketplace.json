@@ -1,0 +1,15 @@
+{
+  "name": "catalyst-design-code-marketplace",
+  "owner": {
+    "name": "Srinath P",
+    "email": "srinath.p@zohocorp.com"
+  },
+  "plugins": [
+    {
+      "name": "Catalyst_design_code_plugin",
+      "source": "./",
+      "description": "Catalyst design-code page builder: skill + enforcement hooks + zcat MCP for building Zoho Catalyst product screens from the zcat-ui component library."
+    }
+  ],
+  "description": "Marketplace for the Catalyst_design_code_plugin: build Zoho Catalyst product screens from the zcat design system with live enforcement."
+}

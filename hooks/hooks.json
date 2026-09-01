@@ -1,0 +1,29 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/zcat-validate.py\"",
+            "timeout": 30,
+            "statusMessage": "Validating page against zcat design rules"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/zcat-gate.py\"",
+            "timeout": 240,
+            "statusMessage": "Rendering screens and checking design proof"
+          }
+        ]
+      }
+    ]
+  }
+}
