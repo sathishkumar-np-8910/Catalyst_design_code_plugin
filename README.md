@@ -18,9 +18,12 @@ independent of any other marketplace.
 ## Install
 
 ```bash
-claude plugin marketplace add /path/to/Catalyst_design_code_plugin
+claude plugin marketplace add sathishkumar-np-8910/Catalyst_design_code_plugin
 claude plugin install Catalyst_design_code_plugin@catalyst-design-code-marketplace
 ```
+
+(If you already have a local clone instead, point `marketplace add` at that
+path in place of the GitHub shorthand above.)
 
 Then install the audit's browser runtime (one time, inside the installed
 plugin's `hooks/` folder):
